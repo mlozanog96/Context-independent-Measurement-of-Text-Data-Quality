@@ -1,0 +1,41 @@
+### Context-independent measurement of text  data quality
+
+## Abstract
+This project focuses on developing and applying the Context-Independent Measurement of Textual Data Quality. Context-independent refers to text features unrelated to the text's interpretation or meaning, such as grammar. The Context-Independent Measurement of Textual Data Quality is performed by using ten defined and standardized metrics, which can be summed in three dimensions (Accuracy, Completeness, and Consistency) due to the alignment of requirements to create data quality metrics. The thesis includes a case study in which the proposed measurement is implemented, and the resulting data are analyzed to discern the effects of improved Data Quality compared to the performance of a Sentiment Analysis model.
+
+## Content
+Python version used for the development: 3.9.12. 
+
+### Data
+Jupyter notebook to transform excels file in one single dataset:
+* Dataset.ipynb
+
+Original files:
+* …/Data/Raw Data/Originals/Twitter.csv
+* …/Data/Raw Data/Originals/Reviews_0-250.csv
+* …/Data/Raw Data/Originals/News_COVID.csv
+
+Sample files used in the project:
+* …/Data/Raw Data/Twitter_1000.xlsx
+* …/Data/Raw Data/Reviews_1000.xlsx
+* …/Data/Raw Data/News_COVID_1000.xlsx
+
+Pickle files with dataset and processed data:
+* …/Data/Processed Data/dataset.pkl
+* …/Data/Processed Data/processed_dataset.pkl
+
+
+### Development
+Main function used during the implementation: Metrics and calculations
+* utils.py
+
+Jupyter notebook, with the measurement of text data quality for text and processed text:
+* Implementation.ipynb
+
+### Results
+Resulting files from Implementation, pickle and excel file:
+* …/Data/Results/dataset_TDQ.pkl
+* …/Data/Results/dataset_to_analyze.xlsx
+
+Analytics:
+* Context-Independent Measurement of TDQ Analysis.pbix
