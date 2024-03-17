@@ -10,9 +10,9 @@ Python version used for the development: 3.9.12.
 Jupyter notebook to transform excels file in one single dataset:
 * Dataset.ipynb
 
-Original files:
-* …/Data/Raw Data/Originals/Twitter.csv
-* …/Data/Raw Data/Originals/Reviews_0-250.csv
+Original files (convert unzip rar files to csv):
+* …/Data/Raw Data/Originals/Twitter.rar 
+* …/Data/Raw Data/Originals/Reviews_0-250.rar
 * …/Data/Raw Data/Originals/News_COVID.csv
 
 Sample files used in the project:
